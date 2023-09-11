@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".NotaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_nota"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="16dp">
+
+            <ImageView
+                android:id="@+id/image_cancelar"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/image_descripcion"
+                android:padding="8dp"
+                android:src="@drawable/ic_atras" />
+
+            <ImageView
+                android:id="@+id/image_guardar"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/image_descripcion"
+                android:padding="8dp"
+                android:src="@drawable/ic_guardar" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/text_titulo"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/text_titulo"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_nota" />
+
+    <View
+        android:id="@+id/view_nota"
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_nota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo" />
+
+    <ImageView
+        android:id="@+id/image_pinned"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:contentDescription="@string/image_descripcion"
+        app:layout_constraintEnd_toEndOf="@+id/view_nota"
+        app:layout_constraintStart_toStartOf="@+id/view_nota"
+        app:layout_constraintTop_toTopOf="@+id/view_nota"
+        app:srcCompat="@drawable/pinned_icon" />
+
+    <EditText
+        android:id="@+id/text_contenido"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/text_contenido"
+        android:importantForAutofill="no"
+        android:inputType="text|textMultiLine"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/view_nota"
+        app:layout_constraintEnd_toEndOf="@+id/view_nota"
+        app:layout_constraintStart_toStartOf="@+id/view_nota"
+        app:layout_constraintTop_toBottomOf="@+id/image_pinned" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

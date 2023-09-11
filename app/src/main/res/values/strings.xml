@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KeepNote</string>
+    <string name="image_descripcion">Imagen</string>
+    <string name="button_descripcion">Boton</string>
+    <string name="opcion_fijar">Fijar / Desfijar</string>
+    <string name="opcion_eliminar">Eliminar</string>
+    <string name="opcion_vista">Cambiar vista</string>
+    <string name="opcion_ayuda">Ayuda</string>
+    <string name="text_titulo">Titulo</string>
+    <string name="text_contenido">Escriba aquí su nota…</string>
+    <string name="text_ayuda">Ayuda</string>
+    <string name="ayuda_inicio">Inicio</string>
+    <string name="ayuda_vista">Vista</string>
+    <string name="ayuda_busqueda">Busqueda</string>
+    <string name="ayuda_nota">Nota</string>
+    <string name="ayuda_menu1">En la pantalla principal se ofrece una visualización de todas las notas guardadas por el usuario.</string>
+    <string name="ayuda_menu2">Puede pulsar sobre una nota para verla con mas detalle y modificarla todo lo que guste (véase con más detalle en la sección nota).</string>
+    <string name="ayuda_menu3">Si mantiene pulsado, le aparecerá un pequeño menú con la opción de fijar o desfijar la nota, y con la opción de eliminar la nota.</string>
+    <string name="ayuda_vista1">En la pantalla principal se ofrece un pequeño menú al lado de la barra de busqueda con la opción de cambiar de vista de las notas, y acceder a la ayuda de la app.</string>
+    <string name="ayuda_vista2">La opción de cambiar la vista permite ver la visualización de las notas en forma de cuadricula o en forma de lista.</string>
+    <string name="ayuda_busqueda1">En la pantalla principal se ofrece una barra de busqueda para el usuario pueda buscar la nota especifica que quiera encontrar.</string>
+    <string name="ayuda_busqueda2">Pulse sobre la barra de busqueda y escriba el titulo o alguna palabra que contenga la nota para encontrarlo, se muestra automaticamente las notas resultantes mientras se escribe.</string>
+    <string name="ayuda_nota1">En esta pantalla el usuario podrá crear una nueva nota o modificar una existente.</string>
+    <string name="ayuda_nota2">En la zona superior podrá escribir el titulo de la nota (es opcional), y dentro de la nota, el contenido de la misma (no se puede guardar una nota con nulo contenido).</string>
+    <string name="ayuda_nota3">Aquí podrá guardar la nueva nota o la nota modificada.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

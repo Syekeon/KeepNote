@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opcion_cambiar_vista"
+        android:title="@string/opcion_vista" />
+
+    <item
+        android:id="@+id/opcion_ayuda"
+        android:title="@string/opcion_ayuda" />
+
+</menu>
